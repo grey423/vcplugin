@@ -302,7 +302,7 @@ async def join_group_call(client, m: Message):
         await mp.group_call.start(m.chat.id)
         await m.delete()
     if group_call and group_call.is_connected:
-        await m.reply_text(f"{emoji.ROBOT} GW UDAH DI VCG NGENTOD ")
+        await m.reply_text(f"Joined VoiceChat...")
 
 
 @Client.on_message(main_filter

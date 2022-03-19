@@ -32,7 +32,7 @@ Click the below button to watch the video tutorial on deploying
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/putraicipiyey/Desah-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/grey423/vcplugin)
 - Enable the worker after deploy the project to Heroku
 
 Change the value of `PLUGIN` variable if you want to try other voice chat

@@ -151,9 +151,9 @@ mp = MusicPlayer()
 async def network_status_changed_handler(context, is_connected: bool):
     if is_connected:
         mp.chat_id = MAX_CHANNEL_ID - context.full_chat.id
-        await send_text(f"{emoji.CHECK_MARK_BUTTON} MELUNCUR KE VCG")
+        await send_text(f"{emoji.CHECK_MARK_BUTTON} Joined VoiceChat...")
     else:
-        await send_text(f"{emoji.CROSS_MARK_BUTTON} GW CAPE PEN NGEWE DULU")
+        await send_text(f"{emoji.CROSS_MARK_BUTTON} Leave VoiceChat...")
         mp.chat_id = None
 
 
